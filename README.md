@@ -35,4 +35,4 @@ $ curl -sSfL --retry 5 https://www.ghrl.tk/redpeacock78/base85@v0.0.11/base85-li
 ```
 
 ## 🥝 Lisence
-This source code is licensed [MIT](https://github.com/redpeacock78/ghrl.tk/blob/master/LICENSE).
+This source code is licensed [MIT](https://github.com/redpeacock78/ghrl/blob/master/LICENSE).
