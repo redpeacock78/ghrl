@@ -12,13 +12,13 @@ export async function index(): Promise<string> {
     <meta property="og:title" content="Ghrl" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.ghrl.tk/" />
-    <meta property="og:site_name" content="Ghrl -A service to retrieve Github releases assets through Deno🦕-" />
+    <meta property="og:site_name" content="Ghrl -A service to retrieve Github releases assets through Deno🦕" />
     <meta property="og:image" content="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%%22 y=%2250%%22 style=%22dominant-baseline:central;text-anchor:middle;font-size:90px;%22>🦕</text></svg>" />
     <meta property="og:description" content="A service to retrieve Github releases assets through Deno🦕- />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@kazuki_199778" />
     <meta name="twitter:player" content="@kazuki_199778" />
-    <meta name="twitter:tilte" content="Ghrl -A service to retrieve Github releases assets through Deno🦕-" />
+    <meta name="twitter:tilte" content="Ghrl -A service to retrieve Github releases assets through Deno🦕" />
     <meta name="twitter:image" content="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%%22 y=%2250%%22 style=%22dominant-baseline:central;text-anchor:middle;font-size:90px;%22>🦕</text></svg>" />
     <meta name="twitter:description" content="A service to retrieve Github releases assets through Deno🦕-" />
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%%22 y=%2250%%22 style=%22dominant-baseline:central;text-anchor:middle;font-size:90px;%22>🦕</text></svg>">
