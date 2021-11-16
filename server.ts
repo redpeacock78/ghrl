@@ -7,6 +7,7 @@ app.get("/", async (): Promise<any> => {
   const root: string = await index();
   return {
     statusCode: 200,
+    headers: { "Content-Type": "text/html; charset=UTF-8" },
     content: root,
   };
 });
