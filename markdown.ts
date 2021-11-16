@@ -14,17 +14,17 @@ export async function index(): Promise<string> {
     <meta property="og:title" content="Ghrl" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://ghrl.tk/" />
-    <meta property="og:site_name" content="Ghrl -A service to retrieve 'Github Releases' assets through Deno🦕" />
+    <meta property="og:site_name" content="Ghrl -A service to retrieve 'Github Releases' assets through Deno Deploy🦕" />
     <meta property="og:image" content="https://i.imgur.com/sZiIDW9.png" />
-    <meta property="og:description" content="A service to retrieve 'Github Releases' assets through Deno🦕" />
+    <meta property="og:description" content="A service to retrieve 'Github Releases' assets through Deno Deploy🦕" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@kazuki_199778" />
     <meta name="twitter:player" content="@kazuki_199778" />
-    <meta name="twitter:tilte" content="Ghrl -A service to retrieve 'Github Releases' assets through Deno🦕" />
+    <meta name="twitter:tilte" content="Ghrl -A service to retrieve 'Github Releases' assets through Deno Deploy🦕" />
     <meta name="twitter:image" content="https://i.imgur.com/sZiIDW9.png" />
-    <meta name="twitter:description" content="A service to retrieve 'Github Releases' assets through Deno🦕" />
+    <meta name="twitter:description" content="A service to retrieve 'Github Releases' assets through Deno Deploy🦕" />
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%%22 y=%2250%%22 style=%22dominant-baseline:central;text-anchor:middle;font-size:90px;%22>🦕</text></svg>">
-    <title>Ghrl -A service to retrieve 'Github Releases' assets through Deno🦕-</title>
+    <title>Ghrl -A service to retrieve 'Github Releases' assets through Deno Deploy🦕-</title>
     <style>
       body.dark {
         background-color: #241818;
