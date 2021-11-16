@@ -3,9 +3,12 @@ import { Aqua, latest, tagging, index } from "./deps.ts";
 const app = new Aqua();
 
 // Root index
-app.get("/", async (): Promise<string> => {
+app.get("/", async (): Promise<any> => {
   const root: string = await index();
-  return root;
+  return {
+    statusCode: 200,
+    content: root,
+  };
 });
 
 // Download source code
