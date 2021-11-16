@@ -1,6 +1,6 @@
 # 🦕 Ghrl
 [![deno version](https://img.shields.io/badge/deno-^1.16.0-lightgrey?logo=deno)](https://github.com/denoland/deno) [![Run on Repl.it](https://repl.it/badge/github/redpeacock78/ghrl)](https://repl.it/) [![Website](https://img.shields.io/website?down_color=red&down_message=down&up_color=green&up_message=up&url=https%3A%2F%2Fwww.ghrl.tk%2F)](https://www.ghrl.tk/) [![GitHub](https://img.shields.io/github/license/redpeacock78/ghrl)](https://github.com/redpeacock78/ghrl/blob/master/LICENSE)  
-This service retrieves assets distributed by Github Releases through Deno🦕  
+A service to retrieve Github releases assets through Deno🦕  
 What "Ghrl" means is "**G**it**h**ub **R**e**l**eases".
 
 ## 🛠 Usage
