@@ -1,6 +1,6 @@
 # 🦕 Ghrl
 [![deno version](https://img.shields.io/badge/deno-^1.16.0-lightgrey?logo=deno)](https://github.com/denoland/deno)  [![uptime](https://img.shields.io/uptimerobot/ratio/7/m789748604-54a82c6e7bf4fdd20e0a56ad)](https://ghrl.tk/) [![GitHub](https://img.shields.io/github/license/redpeacock78/ghrl)](https://github.com/redpeacock78/ghrl/blob/master/LICENSE)  
-A service to retrieve 'Github releases' assets through [Deno Deploy](https://deno.com/deploy/)🦕  
+A service to retrieve 'Github Releases' assets through [Deno Deploy](https://deno.com/deploy/)🦕  
 What "Ghrl" means is "**G**it**h**ub **R**e**l**eases".
 
 ## 🛠 Usage
