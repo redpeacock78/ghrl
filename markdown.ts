@@ -66,7 +66,7 @@ export async function index(): Promise<string> {
               </a>
             </li>
             <li>
-              <a herf="https://github.com/redpeacock78/ghrl">
+              <a href="https://github.com/redpeacock78/ghrl">
                 <img src="https://i.imgur.com/cszORZ3.png" alt="github" height="100%">
               </a>
             </li>
