@@ -13,7 +13,7 @@ export async function index(): Promise<string> {
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/github-dark.min.css">
     <meta property="og:title" content="Ghrl" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.ghrl.tk/" />
+    <meta property="og:url" content="https://ghrl.tk/" />
     <meta property="og:site_name" content="Ghrl -A service to retrieve 'Github Releases' assets through Deno🦕" />
     <meta property="og:image" content="https://i.imgur.com/sZiIDW9.png" />
     <meta property="og:description" content="A service to retrieve 'Github Releases' assets through Deno🦕" />
