@@ -10,7 +10,7 @@ export async function index(): Promise<string> {
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/github-dark.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/base16/solarized-dark.min.css">
     <meta property="og:title" content="Ghrl" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://ghrl.tk/" />
@@ -67,7 +67,7 @@ export async function index(): Promise<string> {
             </li>
             <li>
               <a href="https://github.com/redpeacock78/ghrl">
-                <img src="https://i.imgur.com/cszORZ3.png" alt="github" height="100%">
+                <img src="https://i.imgur.com/cszORZ3.png" alt="github" height="90%" style="padding-top: 10%">
               </a>
             </li>
           </ul>
@@ -84,8 +84,7 @@ export async function index(): Promise<string> {
               .replace(/<h2/g, "<h4")
               .replace(/<\/h2/g, "</h4")
               .replace(/<h3/g, "<h5")
-              .replace(/<\/h3/g, "</h5")
-              .replace('<code class="lang-bash">', '<code class="bash hljs">')}
+              .replace(/<\/h3/g, "</h5")}
             <footer>
               <p>
                 © 2021, <a href="https://twitter.com/kazuki_199778">redpeacock78</a>, 
