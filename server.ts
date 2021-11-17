@@ -33,7 +33,7 @@ app.get("/:author/:repo", async (req): Promise<any> => {
         .catch((e: Error) => {
           return {
             statusCode: 404,
-            content: { Error: e.message },
+            content: JSON.parse(`{ "Error": ${e.message} }`),
           };
         });
     } else {
@@ -50,7 +50,7 @@ app.get("/:author/:repo", async (req): Promise<any> => {
         .catch((e: Error) => {
           return {
             statusCode: 404,
-            content: { Error: e.message },
+            content: JSON.parse(`{ "Error": ${e.message} }`),
           };
         });
     }
@@ -69,7 +69,7 @@ app.get("/:author/:repo", async (req): Promise<any> => {
         .catch((e: Error) => {
           return {
             statusCode: 404,
-            content: { Error: e.message },
+            content: JSON.parse(`{ "Error": ${e.message} }`),
           };
         });
     } else {
@@ -86,7 +86,7 @@ app.get("/:author/:repo", async (req): Promise<any> => {
         .catch((e: Error) => {
           return {
             statusCode: 404,
-            content: { Error: e.message },
+            content: JSON.parse(`{ "Error": ${e.message} }`),
           };
         });
     }
@@ -114,7 +114,7 @@ app.get("/:author/:repo/:assets_name", async (req): Promise<any> => {
         .catch((e: Error) => {
           return {
             statusCode: 404,
-            content: { Error: e.message },
+            content: JSON.parse(`{ "Error": ${e.message} }`),
           };
         });
     } else {
@@ -131,7 +131,7 @@ app.get("/:author/:repo/:assets_name", async (req): Promise<any> => {
         .catch((e: Error) => {
           return {
             statusCode: 404,
-            content: { Error: e.message },
+            content: JSON.parse(`{ "Error": ${e.message} }`),
           };
         });
     }
