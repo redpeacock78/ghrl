@@ -33,7 +33,8 @@ app.get("/:author/:repo", async (req): Promise<any> => {
         .catch((e: Error) => {
           return {
             statusCode: 404,
-            content: JSON.parse(`{ "Error": ${e.message} }`),
+            headers: { "Content-Type": "applixation/json; charset=UTF-8" },
+            content: JSON.stringify(`{ "Error": ${e.message} }`),
           };
         });
     } else {
@@ -50,7 +51,8 @@ app.get("/:author/:repo", async (req): Promise<any> => {
         .catch((e: Error) => {
           return {
             statusCode: 404,
-            content: JSON.parse(`{ "Error": ${e.message} }`),
+            headers: { "Content-Type": "applixation/json; charset=UTF-8" },
+            content: JSON.stringify(`{ "Error": ${e.message} }`),
           };
         });
     }
@@ -69,7 +71,8 @@ app.get("/:author/:repo", async (req): Promise<any> => {
         .catch((e: Error) => {
           return {
             statusCode: 404,
-            content: JSON.parse(`{ "Error": ${e.message} }`),
+            headers: { "Content-Type": "applixation/json; charset=UTF-8" },
+            content: JSON.stringify(`{ "Error": ${e.message} }`),
           };
         });
     } else {
@@ -86,7 +89,8 @@ app.get("/:author/:repo", async (req): Promise<any> => {
         .catch((e: Error) => {
           return {
             statusCode: 404,
-            content: JSON.parse(`{ "Error": ${e.message} }`),
+            headers: { "Content-Type": "applixation/json; charset=UTF-8" },
+            content: JSON.stringify(`{ "Error": ${e.message} }`),
           };
         });
     }
@@ -114,7 +118,8 @@ app.get("/:author/:repo/:assets_name", async (req): Promise<any> => {
         .catch((e: Error) => {
           return {
             statusCode: 404,
-            content: JSON.parse(`{ "Error": ${e.message} }`),
+            headers: { "Content-Type": "applixation/json; charset=UTF-8" },
+            content: JSON.stringify(`{ "Error": ${e.message} }`),
           };
         });
     } else {
@@ -131,7 +136,8 @@ app.get("/:author/:repo/:assets_name", async (req): Promise<any> => {
         .catch((e: Error) => {
           return {
             statusCode: 404,
-            content: JSON.parse(`{ "Error": ${e.message} }`),
+            headers: { "Content-Type": "applixation/json; charset=UTF-8" },
+            content: JSON.stringify(`{ "Error": ${e.message} }`),
           };
         });
     }
