@@ -34,7 +34,7 @@ app.get("/:author/:repo", async (req): Promise<any> => {
           return {
             statusCode: 404,
             headers: { "Content-Type": "applixation/json; charset=UTF-8" },
-            content: JSON.stringify(`{ "Error": "${e.message}" }`),
+            content: JSON.parse(JSON.stringify(`{ "Error": "${e.message}" }`)),
           };
         });
     } else {
@@ -52,7 +52,7 @@ app.get("/:author/:repo", async (req): Promise<any> => {
           return {
             statusCode: 404,
             headers: { "Content-Type": "applixation/json; charset=UTF-8" },
-            content: JSON.stringify(`{ "Error": "${e.message}" }`),
+            content: JSON.parse(JSON.stringify(`{ "Error": "${e.message}" }`)),
           };
         });
     }
@@ -72,7 +72,7 @@ app.get("/:author/:repo", async (req): Promise<any> => {
           return {
             statusCode: 404,
             headers: { "Content-Type": "applixation/json; charset=UTF-8" },
-            content: JSON.stringify(`{ "Error": "${e.message}" }`),
+            content: JSON.parse(JSON.stringify(`{ "Error": "${e.message}" }`)),
           };
         });
     } else {
@@ -90,7 +90,7 @@ app.get("/:author/:repo", async (req): Promise<any> => {
           return {
             statusCode: 404,
             headers: { "Content-Type": "applixation/json; charset=UTF-8" },
-            content: JSON.stringify(`{ "Error": "${e.message}" }`),
+            content: JSON.parse(JSON.stringify(`{ "Error": "${e.message}" }`)),
           };
         });
     }
@@ -119,7 +119,7 @@ app.get("/:author/:repo/:assets_name", async (req): Promise<any> => {
           return {
             statusCode: 404,
             headers: { "Content-Type": "applixation/json; charset=UTF-8" },
-            content: JSON.stringify(`{ "Error": "${e.message}" }`),
+            content: JSON.parse(JSON.stringify(`{ "Error": "${e.message}" }`)),
           };
         });
     } else {
@@ -137,7 +137,7 @@ app.get("/:author/:repo/:assets_name", async (req): Promise<any> => {
           return {
             statusCode: 404,
             headers: { "Content-Type": "applixation/json; charset=UTF-8" },
-            content: JSON.stringify(`{ "Error": "${e.message}" }`),
+            content: JSON.parse(JSON.stringify(`{ "Error": "${e.message}" }`)),
           };
         });
     }
