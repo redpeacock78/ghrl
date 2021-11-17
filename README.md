@@ -22,7 +22,7 @@ What "Ghrl" means is "**G**it**h**ub **R**e**l**eases".
   # Download v0.0.11 Source(tar.gz)
   $ curl -sSfOL --retry 5 "https://ghrl.tk/redpeacock78/base85@v0.0.11"
 
-    # Download Latest Source(zip)
+  # Download Latest Source(zip)
   $ curl -sSfOL --retry 5 "https://ghrl.tk/redpeacock78/base85?source=zip"
 
   # Download v0.0.11 Source(zip)
