@@ -90,7 +90,8 @@ export async function index(): Promise<string> {
               <p>
                 © 2021, <a href="https://twitter.com/kazuki_199778">redpeacock78</a>, 
                 <a href="https://github.com/redpeacock78/ghrl/blob/master/LICENSE">MIT License</a>, 
-                <a href="https://github.com/redpeacock78/ghrl">Repository</a>
+                <a href="https://github.com/redpeacock78/ghrl">Repository</a>, 
+                <a href="https://stats.uptimerobot.com/9jVOwFz21w">Status</a>
               </p>
             </footer>
           </div>
