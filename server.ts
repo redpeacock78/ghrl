@@ -33,7 +33,6 @@ app.get("/:author/:repo", async (req): Promise<any> => {
         .catch((e: Error) => {
           return {
             statusCode: 404,
-            headers: { "Content-Type": "applixation/json; charset=UTF-8" },
             content: JSON.parse(JSON.stringify(`{ "Error": "${e.message}" }`)),
           };
         });
@@ -51,7 +50,6 @@ app.get("/:author/:repo", async (req): Promise<any> => {
         .catch((e: Error) => {
           return {
             statusCode: 404,
-            headers: { "Content-Type": "applixation/json; charset=UTF-8" },
             content: JSON.parse(JSON.stringify(`{ "Error": "${e.message}" }`)),
           };
         });
@@ -71,7 +69,6 @@ app.get("/:author/:repo", async (req): Promise<any> => {
         .catch((e: Error) => {
           return {
             statusCode: 404,
-            headers: { "Content-Type": "applixation/json; charset=UTF-8" },
             content: JSON.parse(JSON.stringify(`{ "Error": "${e.message}" }`)),
           };
         });
@@ -89,7 +86,6 @@ app.get("/:author/:repo", async (req): Promise<any> => {
         .catch((e: Error) => {
           return {
             statusCode: 404,
-            headers: { "Content-Type": "applixation/json; charset=UTF-8" },
             content: JSON.parse(JSON.stringify(`{ "Error": "${e.message}" }`)),
           };
         });
@@ -118,7 +114,6 @@ app.get("/:author/:repo/:assets_name", async (req): Promise<any> => {
         .catch((e: Error) => {
           return {
             statusCode: 404,
-            headers: { "Content-Type": "applixation/json; charset=UTF-8" },
             content: JSON.parse(JSON.stringify(`{ "Error": "${e.message}" }`)),
           };
         });
@@ -136,7 +131,6 @@ app.get("/:author/:repo/:assets_name", async (req): Promise<any> => {
         .catch((e: Error) => {
           return {
             statusCode: 404,
-            headers: { "Content-Type": "applixation/json; charset=UTF-8" },
             content: JSON.parse(JSON.stringify(`{ "Error": "${e.message}" }`)),
           };
         });
