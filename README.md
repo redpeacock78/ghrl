@@ -1,6 +1,7 @@
 <img src="https://i.imgur.com/xu1p0qP.webp" style="width:60vmin;margin-bottom:10px;object-fit:contain;"></img>  
-[![deno version](https://img.shields.io/badge/deno-^1.16.0-lightgrey?logo=deno)](https://github.com/denoland/deno)  [![uptime](https://img.shields.io/uptimerobot/ratio/7/m789748604-54a82c6e7bf4fdd20e0a56ad)](https://stats.uptimerobot.com/9jVOwFz21w) [![GitHub](https://img.shields.io/github/license/redpeacock78/ghrl)](https://github.com/redpeacock78/ghrl/blob/master/LICENSE)  
-A service to retrieve 'Github Releases' assets through [Deno Deploy](https://deno.com/deploy/)🦕  
+[![deno version](https://img.shields.io/badge/deno-^1.16.0-lightgrey?logo=deno)](https://github.com/denoland/deno) [![uptime](https://img.shields.io/uptimerobot/ratio/7/m789748604-54a82c6e7bf4fdd20e0a56ad)](https://stats.uptimerobot.com/9jVOwFz21w) [![GitHub](https://img.shields.io/github/license/redpeacock78/ghrl)](https://github.com/redpeacock78/ghrl/blob/master/LICENSE)  
+A service to retrieve 'Github Releases' assets through
+[Deno Deploy](https://deno.com/deploy/)🦕  
 What "**Ghrl**" means is "**G**it**h**ub **R**e**l**eases".
 
 ## 🛠 Usage
@@ -10,7 +11,9 @@ What "**Ghrl**" means is "**G**it**h**ub **R**e**l**eases".
   - The absence of `?source=zip` represents a `tar.gz`.
 - 📦 Download Other Assets  
   `https://ghrl.tk/:owner/:repo[@tag]/:assets_name`  
-  - Redirect to `https://github.com/:owner/:repo/releases/download/[latest or tag]/:assets_name`
+  - Redirect to `https://github.com/:owner/:repo/releases/download/[latest or tag]/:assets_name`  
+
+If no `@tag` is specified, the assets will always be retrieved from the latest release.
 
 ### 📄 Example
 [redpeacock78/base85](https://github.com/redpeacock78/base85)  
