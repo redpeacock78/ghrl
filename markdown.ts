@@ -60,15 +60,18 @@ export async function index(): Promise<string> {
     <body class="dark">
       <nav>
         <div class="nav-wrapper">
+          <ul class="left" style="padding-left:15px;">
+            <li>
+              <img src="https://i.imgur.com/xu1p0qP.webp" height="45"></img>
+            </li>
+          </ul>
           <ul class="right">
             <li>
-              <a href="https://deno.land/">
-                <img src="https://camo.githubusercontent.com/9e2f7b04a40d3613e2398cae66d73e953d73a4a3800bfc66d7b04ab869c0eda4/68747470733a2f2f64656e6f6c69622e6769746875622e696f2f686967682d7265732d64656e6f2d6c6f676f2f64656e6f5f68725f636972636c652e706e67" alt="deno" height="100%">
-              </a>
-            </li>
-            <li>
               <a href="https://github.com/redpeacock78/ghrl">
-                <img src="https://i.imgur.com/cszORZ3.png" alt="github" height="90%" style="padding-top: 10%">
+                <svg id="i-github" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="45" height="45">
+                  <path stroke-width="0" fill="currentColor" d="M32 0 C14 0 0 14 0 32 0 53 19 62 22 62 24 62 24 61 24 60 L24 55 C17 57 14 53 13 50 13 50 13 49 11 47 10 46 6 44 10 44 13 44 15 48 15 48 18 52 22 51 24 50 24 48 26 46 26 46 18 45 12 42 12 31 12 27 13 24 15 22 15 22 13 18 15 13 15 13 20 13 24 17 27 15 37 15 40 17 44 13 49 13 49 13 51 20 49 22 49 22 51 24 52 27 52 31 52 42 45 45 38 46 39 47 40 49 40 52 L40 60 C40 61 40 62 42 62 45 62 64 53 64 32 64 14 50 0 32 0 Z">
+                  </path>
+                </svg>
               </a>
             </li>
           </ul>
