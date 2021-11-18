@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-inferrable-types
 import { Marked } from "https://deno.land/x/markdown@v2.0.0/mod.ts";
 
 export async function index(): Promise<string> {
@@ -76,15 +77,17 @@ export async function index(): Promise<string> {
       <div class="container lighten-5">
         <div class="card">
           <div class="card-content">
-            ${markup.content
-              .replace(/<code>/g, '<code class="hljs">')
-              .replace(/<pre>/g, '<div class="code-container">\n<pre>')
-              .replace(/<\/pre>/g, "</pre>\n</div>")
-              .replace(/<ul>/g, '<ul class="list">')
-              .replace(/<h2/g, "<h4")
-              .replace(/<\/h2/g, "</h4")
-              .replace(/<h3/g, "<h5")
-              .replace(/<\/h3/g, "</h5")}
+            ${
+    markup.content
+      .replace(/<code>/g, '<code class="hljs">')
+      .replace(/<pre>/g, '<div class="code-container">\n<pre>')
+      .replace(/<\/pre>/g, "</pre>\n</div>")
+      .replace(/<ul>/g, '<ul class="list">')
+      .replace(/<h2/g, "<h4")
+      .replace(/<\/h2/g, "</h4")
+      .replace(/<h3/g, "<h5")
+      .replace(/<\/h3/g, "</h5")
+  }
             <footer>
               <p>
                 © 2021, <a href="https://twitter.com/kazuki_199778">redpeacock78</a>, 
