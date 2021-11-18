@@ -33,6 +33,10 @@ export async function index(): Promise<string> {
       .card {
         background-color: #444;
       }
+      .card-content {
+        padding-left: 3vmin !important;
+        padding-right: 3vmin !important;
+      }
       nav {
         height: 45px;
         background-color: #444;
@@ -43,10 +47,11 @@ export async function index(): Promise<string> {
       h1 {
         margin-top: 0;
       }
-      .list {
-        padding-left: 1em !important;
-        list-style-type: '' !important;
+      .list > li{
+        list-style-type: disc !important;
         display: list-item;
+        margin-left: 1.5em;
+        padding: 0;
       }
       code {
         word-break: break-all;
