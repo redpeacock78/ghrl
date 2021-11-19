@@ -41,8 +41,13 @@ If no `@tag` is specified, the assets will always be retrieved from the latest r
   $ curl -sSfL --retry 5 "https://ghrl.tk/redpeacock78/base85@v0.0.11/base85-linux-x86" -o base85-linux-x86
   ```
 
-## 📣 Contribution
-Please Create [Issues](https://github.com/redpeacock78/ghrl/issues/new), or Pull Requests.
+## 🎁 Donate/Support
+**Donations and support are always welcome.**  
+**If you can help us pay for 🥓 or ☕️ , the author will do his best to add a new feature or fix a bug.**  
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/redpeacock78) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/redpeacock78) [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/redpeacock78) [![LiberaPay](https://img.shields.io/badge/Liberapay-F6C915?style=for-the-badge&logo=liberapay&logoColor=black)](https://liberapay.com/redpeacock78/donate) [![Fantia](https://raw.githubusercontent.com/redpeacock78/imgs/master/logo.svg)](https://fantia.jp/fanclubs/218155/plans) [![ofuse](https://raw.githubusercontent.com/redpeacock78/imgs/master/ofuse_logo.svg)](https://ofuse.me/redpeacock78)
+
+## 🚀 Contribution
+Please Create [Issues](https://github.com/redpeacock78/ghrl/issues/new), or Pull Requests.  
 
 ## 🥝 License
 This source code is licensed [MIT](https://github.com/redpeacock78/ghrl/blob/master/LICENSE).
